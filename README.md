@@ -8,7 +8,7 @@ When TryHackMe shows you a grayed-out hint like `______ ________`, THM Assist tu
 
 ## The Problem
 
-TryHackMe answer fields show you the *structure* of the expected answer — character counts, spaces, periods, slashes — but not the answer itself. The answer is almost always somewhere in the task body, but hunting through dense technical text for a phrase of exactly the right shape is slow and error-prone, especially when answers contain dashes, colons, or other technical punctuation that don't "look" like a word.
+TryHackMe answer fields show you the *structure* of the expected answer — character counts, spaces, periods, slashes — but not the answer itself. The answer is sometimes in the task body (depending on what type of room it is...), but hunting through dense technical text for a phrase of exactly the right shape is slow and error-prone, especially when answers contain dashes, colons, or other technical punctuation that don't "look" like a word. And if you've been learning with TryHackMe for any length of time, you've almost definitely had that frustration of trying to guess the exact phrasing or 'way' they want you to answer, maybe it's slightly different than the way the thing is mentioned in the paragraph, it can feel like they want you to 'read their mind' in a way that is not a good use of your time and energy.
 
 THM Assist solves this with a single HTML file and zero dependencies.
 
@@ -85,7 +85,7 @@ A browser extension that reads the THM tab directly and highlights answers in-pa
 
 ## Credits
 
-**Concept & product direction** — Peter  
+**Concept & product direction** — Peter Kure
 **Engineering** — [Claude Sonnet](https://www.anthropic.com/claude) by Anthropic  
 
 This project was AI-engineered: the interface, matching logic, regex engine, and iterative bug fixes were all built through a conversation with Claude. Peter described the problem, drove the design decisions, and tested against real TryHackMe rooms to catch edge cases (like `embedding-level poisoning` revealing the need for smart character matching).
