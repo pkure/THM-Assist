@@ -14,6 +14,10 @@ THM Assist solves this with a single HTML file and zero dependencies.
 
 ---
 
+![thm-assist-pic](thm-assist-pic.png)
+
+
+
 ## Features
 
 - **Shape-to-regex engine** — type the answer hint using underscores for blank characters; everything else (spaces, periods, slashes, revealed letters) is matched literally as an anchor
